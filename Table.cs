@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace DBFourLab
 {
-    internal class Table
+    public class Table
     {
+        public List<Row> Rows { get; set; }
+        public Table()
+        {
+            Rows = new List<Row>();
+        }
     }
 }
