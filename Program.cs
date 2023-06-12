@@ -6,14 +6,14 @@ internal class Program
     {
         Console.OutputEncoding = System.Text.Encoding.UTF8;
 
-        string pathScheme = "Scheme\\Generals.scheme.json";
+        string pathScheme = "Scheme\\Matches.scheme.json";
         // с помошью Newtonsoft.Json и классов Scheme и SchemeColumn
         // парсим информацию из json файла со схемой таблички
         Scheme schemeOfTable = Scheme.ReadJson(pathScheme);
 
         try
         {
-            string pathTable = "Generals.csv";
+            string pathTable = "Matches.csv";
             Table table = TableReader.TableRead(schemeOfTable, pathTable);
 
             // вывод информации, считанной из csv файла
