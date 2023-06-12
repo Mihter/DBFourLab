@@ -1,0 +1,37 @@
+{
+  "name": "Generals",
+  "columns": [
+    {
+      "name": "id",
+      "type": "uint",
+      "isPrimary": true
+    },
+    {
+      "name": "team1",
+      "type": "string",
+      "isPrimary": false
+    },
+    {
+      "name": "score",
+      "type": "string",
+      "isPrimary": false
+    },
+    {
+      "name": "team2",
+      "type": "string",
+      "isPrimary": false
+    },
+    {
+      "name": "startdate",
+      "type": "datetime",
+      "isPrimary": false
+    },
+    {
+      "name": "finishdate",
+      "type": "datetime",
+      "isPrimary": false
+    }
+  ]
+}
+
+
